@@ -1,0 +1,34 @@
+/* FeatureProduct.css */
+.featured-product {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.featured-product-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-feature {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.row-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.position-card {
+  margin-bottom: 30px;
+}
+
+.position-card .card {
+  transition: transform 0.3s ease;
+}
+
+.position-card .card:hover {
+  transform: scale(1.05);
+}

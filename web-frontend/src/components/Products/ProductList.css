@@ -1,0 +1,18 @@
+/* src/components/ProductPage/ProductList.css */
+
+.product-list .product-card {
+  transition: transform 0.2s;
+}
+
+.product-list .product-card:hover {
+  transform: scale(1.05);
+}
+
+.pagination .page-link {
+  cursor: pointer;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}

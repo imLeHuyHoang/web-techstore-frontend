@@ -1,0 +1,186 @@
+/* src/components/CartPage/CartPage.css */
+
+.cartpage {
+  background-color: #f8f9fa;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-body .product-name {
+  margin-bottom: 0.5rem;
+}
+
+.card-body .text-muted {
+  margin-bottom: 0.5rem;
+}
+
+.button-minus,
+.button-plus {
+  height: 100%;
+  width: 50px;
+  font-size: 14px; /* Giảm kích thước chữ */
+  border-radius: 4px; /* Làm tròn các góc */
+  padding: 0;
+  transition: background-color 0.3s ease; /* Thêm hiệu ứng hover */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-quantity {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Thêm hiệu ứng khi hover */
+.button-minus:hover,
+.button-plus:hover {
+  background-color: #e0e0e0;
+}
+
+/* Nếu bạn muốn nút nhỏ hơn nữa, bạn có thể điều chỉnh padding thêm */
+.quantity {
+  height: 30px;
+}
+
+/* Tùy chọn cho màu nền, có thể thay đổi tùy theo yêu cầu */
+button:disabled {
+  background-color: #f0f0f0;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.card .badge {
+  font-size: 0.9rem;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.usecode {
+  background-color: #28a745;
+  color: white;
+}
+
+.usecode:hover {
+  background-color: #218838;
+  color: white;
+}
+
+.text-discount-cart {
+  background-color: #28a745;
+  color: white;
+}
+
+.text-discount-cart:hover {
+  background-color: #218838;
+  color: white;
+}
+
+.btn-link.text-muted {
+  text-decoration: none;
+}
+
+.btn-link.text-muted:hover {
+  text-decoration: underline;
+}
+
+.btn-link.text-danger {
+  text-decoration: none;
+}
+
+.btn-link.text-danger:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .product-name {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-image {
+    height: 150px;
+  }
+
+  .product-name {
+    font-size: 1rem;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-body .text-muted {
+    margin-bottom: 0.3rem;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+  }
+}
+
+/* Hover Effects */
+.btn-outline-secondary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+.Form-Control {
+  width: 60%; /* Thay đổi chiều rộng của ô nhập */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
