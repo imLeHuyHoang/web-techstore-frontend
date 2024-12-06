@@ -4,7 +4,7 @@ import "./Snowfall.css";
 
 const Snowfall = ({
   snowflakeCount = 2, // Số lượng bông tuyết
-  snowflakeSize = { min: 2, max: 4 }, // Kích thước bông tuyết (tối thiểu và tối đa)
+  snowflakeSize = { min: 2, max: 5 }, // Kích thước bông tuyết (tối thiểu và tối đa)
   fallSpeed = { min: 1, max: 2 }, // Tốc độ rơi của bông tuyết (tối thiểu và tối đa)
   drift = { min: -50, max: 50 }, // Độ lệch ngang của bông tuyết (tối thiểu và tối đa)
 }) => {
